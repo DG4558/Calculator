@@ -14,7 +14,7 @@ import org.junit.Test;
         @Test
         public void testAddition() {
             double a = 10;
-            double b = 5;
+            double b = 15;
             double expectedResult = 15;
             double result = calc.performAddition(a, b);
             Assert.assertEquals(expectedResult, result, 0.0001);
