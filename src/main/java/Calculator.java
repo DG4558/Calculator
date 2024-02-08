@@ -15,7 +15,7 @@ public class Calculator {
             System.out.println("6. Factorial");
             System.out.println("7. Power");
             System.out.println("8. Natural Log");
-            System.out.println("9. Exit");
+            System.out.println("9. Exit ");
             System.out.print("Enter your choice (1-9): ");
             choice = scanner.nextInt();
             switch (choice) {
