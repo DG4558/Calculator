@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("Code")
+        stage("Code Fetch")
         {
             steps{
                 git url: "https://github.com/DG4558/Calculator.git" ,branch:"master"
