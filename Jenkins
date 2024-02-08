@@ -7,13 +7,13 @@ pipeline{
                 git url: "https://github.com/DG4558/Calculator.git" ,branch:"master"
             }
         }
-        stage("Build Maven")
+        stage("Build and Test Maven")
         {
             steps{
               sh "mvn clean install"
             }
         }
-        stage("Build and Test")
+        stage("Docker containerize")
         {
             steps{
                 sh "docker build -t cal-java ."
