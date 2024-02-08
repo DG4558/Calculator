@@ -47,7 +47,7 @@ pipeline{
         post {
         failure{
              emailext (
-      to: 'deepanjalighosh2017@gmail.com',
+      to: 'talkingtom.dg@gmail.com',
       subject: "Build failed",
       body: "Calculator build failed"
       
